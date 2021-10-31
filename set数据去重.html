@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    // var arr = new Set(['a', 'a', 'n', 'n', 'b', 'c', 'c']);
+    // console.log(Object.prototype.toString.call(arr));
+    var arry = new Set(['a', 'a', 'n', 'n', 'b', 'c', 'c']);
+    var arr1 = [...arry];
+    console.log(arr1);
+
+    // 往set中添加数据
+    // arry.add('f').add('g');
+    // console.log(arry.size);
+
+    // 删除数据，返回的是布尔值
+    // arry.delete('f');
+    // console.log(arry.size);
+
+    // 查找又没有数据,返回的是布尔值
+    // var r1 = arry.has('g');
+    // console.log(r1);
+    // // 清除set中数据
+
+    // arry.clear()
+    // console.log(arry);;
+
+    // 遍历set数据
+    arry.forEach(item => {
+        console.log(item);
+    })
+</script>
+
+</html>
